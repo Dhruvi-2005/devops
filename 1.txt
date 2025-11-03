@@ -1,4 +1,5 @@
 git –version
+git config --global user.name"dhruvi"
 git config --global --list
 git init
 (add a 1.txt empty file in your folder then do git status)
@@ -6,7 +7,14 @@ git status
 git add .
 git status
 git commit -m "first commit"
+git clone https://github.com/Dhruvi-2005/devops.git (create new repository add its url)
+ls
+cd devops (took this from the url)
+git rm 1.txt
+ls
 git log
+git log --oneline
+git show 
 git diff
 git branch
 git branch branch2
@@ -17,5 +25,14 @@ git status
 git add .
 git status
 git commit -m "second commit"
-git checkout master
-git merge branch2
+git checkout dhruvi
+git merge master
+
+
+#To implement Pull, Push, fetch and merge operations between Git and GitHub.(also in 20 commands of git bash)
+git remote -v
+git remote add origin https://github.com/Dhruvi-2005/devops.git (create new repository add its url)
+git push -u origin master
+git fetch origin
+create a file in github
+git pull origin master
