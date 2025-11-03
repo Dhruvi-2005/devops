@@ -1,0 +1,20 @@
+git –version
+git init
+git status
+git rev-parse —short HEAD
+git clone
+git add
+git commit -m
+git log
+git diff
+git branch
+git stash
+git restore <filename>
+git branch
+git rm
+git tag
+git reflog
+git config
+git show
+git checkout
+git blame
