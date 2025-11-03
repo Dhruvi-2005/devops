@@ -1,20 +1,21 @@
 git –version
+git config --global --list
 git init
+(add a 1.txt empty file in your folder then do git status)
 git status
-git rev-parse —short HEAD
-git clone
-git add
-git commit -m
+git add .
+git status
+git commit -m "first commit"
 git log
 git diff
 git branch
-git stash
-git restore <filename>
+git branch branch2
+git checkout branch2
 git branch
-git rm
-git tag
-git reflog
-git config
-git show
-git checkout
-git blame
+(add a 2.txt empty file in your folder then do git status)
+git status
+git add .
+git status
+git commit -m "second commit"
+git checkout master
+git merge branch2
